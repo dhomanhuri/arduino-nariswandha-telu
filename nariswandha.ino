@@ -7,6 +7,8 @@ void setup() {
   Wire.begin();
   lightMeter.begin();
   pinMode(led,OUTPUT);
+  pinMode(openPin,OUTPUT);
+  pinMode(closePin,OUTPUT);
   pinMode(rain_sensor,INPUT);
   ledcSetup(PWMChannel, PWMFreq, PWMResolution);
   ledcAttachPin(servoPin, PWMChannel);

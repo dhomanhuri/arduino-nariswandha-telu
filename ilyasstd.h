@@ -16,7 +16,8 @@ int rainValMin = 10;
 int luxValMax = 50;
 int luxValMin = 30;
 
-
+int openPin = 2;
+int closePin = 4;
 #define BLYNK_TEMPLATE_ID "TMPLx2-iFaqE"
 #define BLYNK_DEVICE_NAME "newProject"
 #define BLYNK_AUTH_TOKEN "Lf-UyHBFVgQcqG7PK_EMVxIGYpvKpsv5"
