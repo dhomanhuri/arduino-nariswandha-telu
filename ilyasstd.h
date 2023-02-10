@@ -18,9 +18,9 @@ int luxValMin = 30;
 
 int openPin = 2;
 int closePin = 4;
-#define BLYNK_TEMPLATE_ID "TMPLx2-iFaqE"
-#define BLYNK_DEVICE_NAME "newProject"
-#define BLYNK_AUTH_TOKEN "Lf-UyHBFVgQcqG7PK_EMVxIGYpvKpsv5"
+#define BLYNK_TEMPLATE_ID "TMPLDZpJn4zW"
+#define BLYNK_DEVICE_NAME "Skripsi"
+#define BLYNK_AUTH_TOKEN "bo6DS7DMqV2rdzHJh8NLfm60oYOxxxyl"
 
 #define BLYNK_PRINT Serial
 
